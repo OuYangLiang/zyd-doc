@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+/*紫砂艺师名录文件样式*/
+
+.container {
+	width:960px;
+	margin:15px auto;	
+}
+.artist-list {
+	padding-top:15px;
+	border-bottom:1px solid #d6c0c0;
+}
+#atoz-page-container {
+    float: left;
+    padding: 5px 0 15px 10px;
+    width: 640px;
+}
+.artist_list_col {
+    display: inline;
+    float: left;
+    width: 640px;
+}
+#artist-page-container span{
+	font-size:15px;
+	font-weight:bolder;
+	float:left;
+}
+.artist_list_col ul {
+    margin: 0 0 25px;
+}
+.artist_list_col li.top-letter {
+    color: #000;
+    font-size: 22px;
+    padding: 10px 0 0;
+}
+.artist_list_col li {
+    color: #000;
+    font-size: 22px;
+    padding: 5px 0 0;
+    width:128px;
+    float:left;
+    text-align:left;
+}
+.artist_list_col li a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.artist_list_col li a:hover {
+    color: #999;
+    text-decoration: underline;
+}
+.artist_list_col ul li .hover-box {
+    display: none;
+    overflow: hidden;
+    padding: 2px;
+    position: absolute;
+    width: 400px;
+}
+.artist_list_col ul li .hover-box .side-arrow {
+    float: left;
+    height: 28px;
+    overflow: hidden;
+    padding-top: 71px;
+    position: relative;
+    width: 17px;
+    z-index: 10001;
+}
+.artist_list_col ul li .hover-box .designer-info {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px #ccc;
+    float: left;
+    margin-left: -3px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 270px;
+    z-index: 10000;
+}
+.artist_list_col ul li .hover-box h2 {
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.artist_list_col ul li .hover-box h4 {
+    padding-bottom: 20px;
+}
+.artist_list_col ul li .hover-box .featured-images {
+    clear: both;
+    display: block;
+    height: 100%;
+    overflow: auto;
+}
+.artist_list_col ul li .hover-box .featured-images ul {
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.artist_list_col ul li .hover-box div ul {
+    clear: both;
+    display: block;
+    height: 100%;
+    list-style-position: outside;
+    list-style-type: disc;
+    overflow: auto;
+    padding: 0 0 0 20px;
+}
+#artist_ad {
+	float:right;
+	padding-top:10px;
+}

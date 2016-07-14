@@ -1,0 +1,47 @@
+#search_mini_form .form-search { position: relative; }
+#search_autocomplete { display: block; width: 617px; position: absolute; top: 35px !important; right: -1px; z-index: 999; text-align: left; background: #fff url('../images/bkg_suggest_fauxcolumn.png') repeat-y; border-bottom: 1px solid #E6E5E2; font-size: 12px; letter-spacing: 1px; }
+#search_autocomplete .markuparrow-suggest { position: absolute; top: -6px; width: 617px; height: 46px; background: transparent url('../images/bkg_arrow-box.png') 0 0 no-repeat; }
+#search_autocomplete .suggestions {
+    position: relative; z-index: 9; /* needed if there are no ".further-suggestions", i.e. search for "lol" */
+}
+
+#search_autocomplete .suggest-wrapper { overflow: hidden /* Clearfix */; color: #666; }
+
+#search_autocomplete .further-suggestions { float: right;  width: 271px; }
+#search_autocomplete .further-suggestions .suggestions { margin-bottom: 60px; }
+#search_autocomplete .further-suggestions .suggestions.last-section { margin-bottom: 30px; }
+
+#search_autocomplete .product-suggestions { float: left; width: 346px; }
+#search_autocomplete .product-suggestions li { padding-bottom: 10px; border-bottom: 1px solid #F0EEEB; margin: 10px 15px 0 0; }
+#search_autocomplete .suggestions .selectable-item { cursor:pointer; }
+
+#search_autocomplete .selected,
+#search_autocomplete .selected .designer-name,
+#search_autocomplete .selected .product-name { text-decoration: underline; }
+
+#search_autocomplete .designer-name { font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; color: #000; }
+#search_autocomplete .product-name { margin-bottom: 2px; }
+
+#search_autocomplete .product-price { display: inline; font-weight: bold; color: #333; }
+#search_autocomplete .selected { color: #000; }
+
+#search_autocomplete .product-suggestions .selected { text-decoration: none; }
+#search_autocomplete .search-term { font-weight: bold; color: #9F2943; }
+
+#search_autocomplete h2 { font-family: 'Times New Roman', serif; font-size: 15px; font-weight: normal; font-style: italic; background-color: #F7E0DF; padding: 10px 15px; margin-bottom: 12px; }
+#search_autocomplete ul { margin-left: 15px; }
+
+#search_autocomplete .product-thumb { float:left; width:110px; }
+#search_autocomplete .product-details { display:table-cell; vertical-align:middle; height:100px; }
+#search_autocomplete .product-details span { display:block; }
+
+#search_autocomplete .product-details .has-special-price { color:#ccc; text-decoration:line-through; margin-right:5px; }
+#search_autocomplete .product-details .product-special-price { font-weight:bold; color:#AF1E37; }
+
+.factfinder-advisorCampaign-wrapper { position:relative; margin: 20px 0 20px 0;}
+.factfinder-advisorCampaign-wrapper a { text-decoration:none; }
+.factfinder-advisorCampaign-wrapper a:hover { text-decoration:underline; }
+.factfinder-advisorCampaign { position:absolute; right:20px; bottom:30px; }
+.factfinder-advisorCampaign-question { font-family: Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif; font-size: 14px;font-weight: normal; text-transform: uppercase; margin-bottom:10px; }
+.factfinder-advisorCampaign-answer { display:block; margin:0 0 5px; padding:0 0 0 12px; background:transparent url(../images/ff/campaign-question-arrow-dark.png) no-repeat scroll 0 50%; }
+.further-suggestions .selectable-item { display:block; overflow:hidden; text-overflow:ellipsis; line-height:1.75em; }

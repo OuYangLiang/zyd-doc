@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>111111111</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.nav-wrapper-fixed {
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+			}
+			
+			
+			.nav-wrapper {
+				margin-top: 1000px;
+				width: 100%;
+			}
+			
+		</style>
+		<script type="text/javascript">
+			window.onload = function() {
+				var nav = document.getElementById('nav');
+				var navFixed = document.getElementById('navFixed');
+				window.onscroll = function() {
+					var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+					document.title = scrollTop
+					if (scrollTop + document.documentElement.clientHeight > nav.offsetTop + nav.offsetHeight) {
+						navFixed.style.display = 'none';
+					} else if (scrollTop + document.documentElement.clientHeight < nav.offsetTop + nav.offsetHeight) {
+						navFixed.style.display = 'block';
+					}
+				}
+			};
+		</script>
+	</head>
+
+	<body style="height:2000px;">
+		<div class="nav-wrapper" >
+			<div id="nav">
+				<ul>
+					<li><a target="_blank" href="">11111</a></li>
+					<li><a target="_blank" href="">11111</a></li>
+					<li><a target="_blank" href="">11111</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav-wrapper-fixed" id="navFixed" >
+			<div id="nav">
+				<ul>
+					<li><a target="_blank" href="">11111</a></li>
+					<li><a target="_blank" href="">11111</a></li>
+					<li><a target="_blank" href="">11111</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

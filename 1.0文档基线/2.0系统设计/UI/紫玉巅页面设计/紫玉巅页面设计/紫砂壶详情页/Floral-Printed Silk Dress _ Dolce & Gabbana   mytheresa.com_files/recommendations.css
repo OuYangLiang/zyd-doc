@@ -1,0 +1,41 @@
+.product-view-bottom-recommendations { clear: both; text-align: center; }
+
+.style-with h3 { display:none; }
+.product-view-bottom .products-grid { float:left; border:0; width:440px; clear:none; padding:0; }
+.product-view-bottom .style-with .item { float:left; width:200px; margin:0 10px 30px; }
+.product-view-bottom .style-with .last-row { margin-bottom:0; }
+.style-with .slick-slider { padding:0; }
+.style-with .slick-list { margin:0 30px; }
+.slick-slider button { position:absolute; top:0; width:30px; height:250px; text-align:left; text-indent: -999px; overflow: hidden; }
+.slick-slider .slick-prev { left:0; background:#fff url(../../images/bkg_prev-scroll.png) 50% 50% no-repeat; }
+.slick-slider .slick-next { right:0; background:#fff url(../../images/bkg_next-scroll.png) 50% 50% no-repeat; }
+.product-view-bottom .style-with .slick-slide { margin-bottom:0; }
+
+.product-view-bottom .outfit-image { float:left; width:475px; }
+.product-view-bottom .outfit-image img { display:block; margin:0 auto 20px; cursor:pointer; }
+
+.shop-the-outfit a { font-family:Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif; display:inline-block; text-transform:uppercase; color:#666; padding:10px 30px; background-color:#F0EEEB; }
+.shop-the-outfit a:hover { color:#666 !important; background-color:#D6D4D0; }
+
+.style-with .price-box { margin:10px 0 0; }
+.style-with .item .old-price, .style-with .item .special-price { display:inline; margin:0 5px; }
+
+#product-recommendations { margin: 50px 0; }
+#product-recommendations .tabs { text-align: center; }
+#product-recommendations .tabs a { display:inline-block; height: 30px; line-height: 30px; font-size: 12px; letter-spacing: 1px; padding: 0 20px; border: 1px solid #e6e5e2; border-left:0; margin-bottom:-1px; color:#666; }
+#product-recommendations .tabs a.first { border-left: 1px solid #e6e5e2; }
+#product-recommendations .tabs a.active { color:#000; border-bottom: 1px solid #fff; }
+
+#product-recommendations .tab-content { padding:30px 0; border:1px solid #e6e5e2; }
+#product-recommendations .tab-content:after { content: " "; display: table; clear: both; }
+
+.lang-ar .slick-slider button { text-align: right; }
+.lang-ar .style-with .products-grid .item { float: right; }
+.lang-ar #product-recommendations .tabs a { border-left: 1px solid #e6e5e2; border-right:0; }
+.lang-ar #product-recommendations .tabs a.first { border-right: 1px solid #e6e5e2; }
+.lang-ar .slick-slider .slick-prev { left:auto; right:0; background-image:url(../../images/bkg_next-scroll.png); }
+.lang-ar .slick-slider .slick-next { left:0; right:auto; background-image:url(../../images/bkg_prev-scroll.png); }
+
+.lang-ar .product-view-bottom .outfit-image,
+.lang-ar .product-view-bottom .products-grid,
+.lang-ar .product-view-bottom .style-with .item { float:right; }

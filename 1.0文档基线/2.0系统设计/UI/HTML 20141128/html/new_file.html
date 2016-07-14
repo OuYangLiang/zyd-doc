@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+
+	<body>
+		<button id="click">改变内容</button>
+		<div class="t">要改变的内容</div>
+		<div class="t">要改变的内容</div>
+		<div class="t">要改变的内容</div>
+		<div class="t">要改变的内容</div>
+		<script type="text/javascript">
+			document.getElementById("click").onclick=function(){
+			    var text=document.getElementByClassName("t");
+			    var val=text.innerHTML;
+			    text.innerHTML="<input type='text' id='n' value="+val+" />";
+			    document.getElementById("n").addEventListener("blur",function(e){
+			        text.innerHTML=document.getElementById("n").value;
+			    });
+			};
+				</body>
+			</html>

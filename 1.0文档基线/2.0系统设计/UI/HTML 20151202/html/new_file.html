@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.Large {
+			}
+			
+			.cont3 {
+				
+				height: 100px;
+				overflow-y: hidden;
+			}
+		</style>
+	</head>
+
+	<body class="main">
+		<!--<a href="#" class="abc">改变内容</a>
+		<div class="abc_1">
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试测试
+		</div>
+		<script>
+		
+		</script>-->
+
+		
+		<a class="add_even" onClick="doAct(this);">更多</a>
+		<div class="cont3" id="add_cont">
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试
+			<br />测试测试
+		</div>
+		<script>
+			function doAct(s) {
+				var t = document.getElementById('add_cont'),
+					c = s.className;
+				//有more属性
+				if (c != null && c.indexOf('more') > -1) {
+					s.className = c.replace('more', '');
+					t.className = t.className.replace('Large', 'cont3');
+				} else {
+					s.className = c + ' more';
+					t.className = t.className.replace('cont3', 'Large');
+					//t.className = t.className + ' Large';
+				}
+			}
+		</script>
+	</body>
+
+</html>

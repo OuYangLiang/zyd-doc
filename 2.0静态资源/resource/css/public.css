@@ -1,0 +1,63 @@
+/*公共样式*/
+
+@media (min-width:1200px){
+	main{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.zyd-menu-content-image { width: 1080px;}
+	.zyd-top-nav{width: 1200px; margin: 0 auto;}
+	.zyd-index-hot .row>.col-xs-6>a>.zyd-index-hot-left{padding: 20px;}
+}
+@media (max-width:1199px){
+	main{
+		width: 990px;
+		margin: 0 auto;
+	}
+	.zyd-title-header-line .col-xs-4{width: 25%}
+	.zyd-title-header-line .col-xs-6{width: 58.33333333%%}
+	.zyd-list-bottom-line .col-xs-6:first-child(1){width: 41.66666667%}
+	.zyd-list-bottom-line .col-xs-6:first-child(2){width: 58.33333333%}
+	.zyd-detail-recommend ul{max-height: 345px;}
+	.zyd-menu-content-image { width: 900px;}
+	.zyd-top-nav{width: 990px; margin: 0 auto;}
+
+}
+.w990{width: 990px; margin: 0 auto;}
+.font-100{font-size: 100px;}
+ul,li,ol{list-style: none;}
+a{color:#444; text-decoration: none;}
+a:hover{color: #FF4545; text-decoration: none; cursor: pointer;}
+.inline_block {  display: inline-block;}
+input[type=file] {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+/*过渡通用样式*/
+.transition_01{transition:all linear .1s !important;-webkit-transition:all linear .1s !important;-moz-transition:all linear .1s !important;-ms-transition:all linear .1s !important;}
+.transition_02{transition:all linear .2s !important;-webkit-transition:all linear .2s !important;-moz-transition:all linear .2s !important;-ms-transition:all linear .2s !important;}
+.transition_03{transition:all linear .3s !important;-webkit-transition:all linear .3s !important;-moz-transition:all linear .3s !important;-ms-transition:all linear .3s !important;}
+.transition_04{transition:all linear .4s !important;-webkit-transition:all linear .4s !important;-moz-transition:all linear .4s !important;-ms-transition:all linear .4s !important;}
+.transition_05{transition:all linear .5s !important;-webkit-transition:all linear .5s !important;-moz-transition:all linear .5s !important;-ms-transition:all linear .5s !important;}
+
+/*文字省略号样式*/
+.text_ellipsis{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.line_ellipsis_2{display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: normal;overflow: hidden;}
+.line_ellipsis_3{display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;white-space: normal;overflow: hidden;}
+.line_ellipsis_4{display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;white-space: normal;overflow: hidden;}
+
+.align_center {text-align: center;}
+.align_left {text-align: left;}
+.align_right {text-align: right;}
+.fr{float: right;}
+.hover-img img:hover{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);opacity:0.9; cursor:pointer;-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1); transition: all .5s;-webkit-transition: all .5s; -moz-transition: all .5s; -o-transition: all .5s;-ms-transition: all .5s;}
+.w100 img{width: 100%;}
+.buttons-preview .btn, .buttons-preview .btn-group {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

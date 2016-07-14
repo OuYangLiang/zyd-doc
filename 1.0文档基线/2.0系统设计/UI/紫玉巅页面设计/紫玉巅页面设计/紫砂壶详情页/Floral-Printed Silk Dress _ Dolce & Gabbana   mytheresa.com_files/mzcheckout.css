@@ -1,0 +1,507 @@
+#mzcheckout-container { margin-top: 20px; color: #666; }
+#mzcheckout-container #breadcrumb { text-align: center; font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif; font-size: 12px; text-transform: uppercase; color: #999; background: url("../images/bkg_checkout-bread-line.png") left 27px repeat-x; margin-bottom: 38px; }
+#mzcheckout-container #breadcrumb a { display: block; }
+#mzcheckout-container #breadcrumb li { float: left; }
+#mzcheckout-container #breadcrumb li span { display: block; width: 188px; padding-bottom: 17px; background: url("../images/bkg_checkout-bread-done.png") center bottom no-repeat; }
+#mzcheckout-container #breadcrumb li.passive span { color: #CCC; background-image: url("../images/bkg_checkout-bread-passive.png"); }
+#mzcheckout-container #breadcrumb li.active span { color: #9F2943; background-image: url("../images/bkg_checkout-bread-active.png"); }
+
+.mzcheckout-standard-index .sticky-nav,
+.mzcheckout-standard-address .sticky-nav,
+.mzcheckout-standard-payment .sticky-nav,
+.mzcheckout-standard-review .sticky-nav { border: none; }
+
+#mzcheckout-container h3 { font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif; font-size: 14px; letter-spacing: 1px; font-weight: normal; text-transform: uppercase; color: #000; margin-bottom: 12px; }
+#mzcheckout-container #content .mzcheckout-login h2 { font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; text-transform: uppercase; color: #000; }
+#mzcheckout-container #content .mzcheckout-login .col-1 {border-right: 1px solid #E6E5E2; width: 380px; margin-left: 85px; position: relative; }
+#mzcheckout-container #content .mzcheckout-login .col-1 p,
+#mzcheckout-container #content .mzcheckout-login .col-1 input,
+#mzcheckout-container #content .mzcheckout-login .col-1 div {max-width: 380px}
+#mzcheckout-container #content .mzcheckout-login .col-1 .actions{ text-align: right; }
+#mzcheckout-container #content .mzcheckout-login .col-2 {width: 300px; margin-right: 80px; height: 380px; position: relative;}
+#mzcheckout-container #content .mzcheckout-login .col-2 .form-list .control { position: static; }
+#mzcheckout-container #content .mzcheckout-login label {float:none; font-weight:normal; margin-bottom: 2px;}
+#mzcheckout-container #content .mzcheckout-login .input-box {float:none; margin-top: 5px; margin-bottom: 16px;}
+#mzcheckout-container #content .mzcheckout-login .input-box input {float:none;}
+#mzcheckout-container #content .mzcheckout-login p.required {margin-top: 5px;}
+#mzcheckout-container #content .mzcheckout-login .col-1 button.btn-cart,#mzcheckout-container #content .mzcheckout-login .col-2 button.btn-cart{ width: 270px; }
+#mzcheckout-container #content .mzcheckout-login .col-1 button.btn-cart{ position: relative; top: 30px; right: 110px; }
+#mzcheckout-container #content .mzcheckout-login .col-2 button.btn-cart{ position: relative; top: 30px; left: 0; }
+#mzcheckout-container #content .mzcheckout-login .password-forget{ text-decoration: underline; font-size: 11px; color: #999; position: relative; bottom: 8px; }
+
+#mzcheckout-container .form-list label { text-align: left; }
+#mzcheckout-container .add-gift-message label { color: #000; }
+#mzcheckout-container .add-gift-message p { margin: 0 0 10px; }
+#mzcheckout-address .custom-select { width: 268px; }
+#mzcheckout-address .custom-select select { width: 300px; }
+
+/* =shipping groups */
+.checkout-shipping-method { margin-top: 10px; }
+.shipping-groups { width: 425px; margin-top: 30px; }
+.shipping-group-container { padding: 12px; border: 1px solid #E6E5E2; margin-bottom: 10px !important; }
+.shipping-group-container.active { border-color: #D7C0C0; }
+.shipping-groups .shipping-methods > li { margin-top: -8px !important; }
+.shipping-groups input,
+.shipping-groups label { float: left; }
+.shipping-groups input { display: block; margin: 9px 8px 0 0; }
+.shipping-groups label { width: 378px !important; }
+.shipping-groups strong { display: inline-block; width: 100px; color: #000; }
+.shipping-groups .price { float: right; color: #000; font-weight: bold; padding-top: 8px; }
+.shipping-groups .info-tooltip { margin-left: 5px; top: 6px; }
+.shipping-dhl .shipping-methods { background: transparent url("../images/icon_dhl.png") right top no-repeat; }
+.shipping-ups .shipping-methods { background: transparent url("../images/icon_ups.png") right top no-repeat; }
+.shipping-groups .shipping-methods li.group-info { color: #000; font-weight: bold; padding-right: 90px; margin: 0 0 12px 0 !important; }
+/* END shipping groups */
+
+.add-gift-message-action input,
+.add-gift-message-action label,
+.add-gift-message-action .info-tooltip {
+    float: left;
+}
+.add-gift-message-action input { margin-right: 6px; }
+.add-gift-message-action label { margin-right: 3px; }
+.add-gift-message-action .info-tooltip { top: -3px; }
+
+#mzcheckout-container #content .actions-bottom a.back-button { float:left; }
+#mzcheckout-container .intro {margin: 0 0 10px 0;}
+#mzcheckout-container .intro p,
+#mzcheckout-container .text p { margin-bottom: 16px; letter-spacing: 0; }
+#mzcheckout-container .control {margin: 0 0 15px 0;}
+#mzcheckout-container #content .actions {text-align: left;}
+#mzcheckout-container #content p.required {width:auto}
+#mzcheckout-container #content .required em {color: inherit;}
+#mzcheckout-container #content .actions-top {text-align: right; margin: 0 0 20px 0; padding: 0 0 20px 0; border-top: none; border-bottom: 1px solid #ccc;}
+#mzcheckout-container #content .actions-bottom {text-align: right; margin: 30px 0 0 0; padding: 0 0 10px 0; }
+#mzcheckout-container #content .actions .next-notice {margin: 0 20px 0 0;}
+#mzcheckout-container #content #mzcheckout-address legend { display: block; font-weight: bold; color: #000; padding-top: 10px; width: 100%}
+#mzcheckout-container #content li label {width: 150px; font-weight: normal; }
+#mzcheckout-container #content .input-box { margin-bottom: 7px; }
+#mzcheckout-container #content .input-box input { width: 258px; padding: 4px 5px; background-image: none; }
+#mzcheckout-container #content .input-box input:focus { border-color: #D7C0C0; }
+#mzcheckout-container #content li {margin:0;}
+#mzcheckout-container #content li.fields .field {padding:0}
+
+#mzcheckout-container #content { letter-spacing: 0; }
+#mzcheckout-container #content .add-shipping mzcheckout-review.button { margin-bottom:10px}
+#mzcheckout-container #content .shipping-gift {margin-top:50px;}
+.field-error{ display: none; }
+
+#mzcheckout-container #content li .field-error{ color: #D91A00; margin: 4px 0; }
+#mzcheckout-container #content #mzcheckout-address .checkout-shipping-method legend{display:none}
+#mzcheckout-container #mzcheckout-address .col2-set .col-1, #mzcheckout-container #mzcheckout-address .col2-set .col-2 { width: 48%}
+#mzcheckout-container #mzcheckout-address .gift-message-form li.fields{ display: none; }
+#mzcheckout-container #mzcheckout-address .col2-set .actions .btn-close { margin-top: 20px; }
+#mzcheckout-container #mzcheckout-address #courier-mess {text-align:center; color: #D91A00; }
+
+#mzcheckout-container #content .p_method_name .p_method_info_element .radio-box input.radio { left: 10px; }
+#mzcheckout-container #content #mzcheckout-payment .intro h3 { margin-bottom: 10px; }
+#mzcheckout-container #content #mzcheckout-payment .payment-icons { background: white; }
+#mzcheckout-container #content #mzcheckout-payment .additional-infos {
+    margin-bottom: 1em;
+    display: none;
+}
+
+#mzcheckout-container .form-list label { padding-top: 7px; }
+
+.cc-paymentform-list {
+    padding-top: 60px;
+    margin-top: -30px;
+}
+.cc-paymentform-list.multiple-cc {
+    padding-top: 0;
+    margin-top: -30px;
+}
+
+.p_method_description {
+    width: 500px;
+    float: right;
+    margin: -26px 10px 0;
+}
+
+#p_method_info_mzpayment_payone_creditcard .p_method_description,
+#p_method_info_mzpayment_wirecard_creditcard .p_method_description { margin-top: 0; }
+
+.sp-methods .info-tooltip { top: 6px; }
+.sp-methods label strong { color: #000; }
+
+.mzcheckout-standard-index .footer-container .footer,
+.mzcheckout-standard-payment .footer-container .footer,
+.mzcheckout-standard-address .footer-container .footer,
+.mzcheckout-standard-review .footer-container .footer,
+.mzcheckout-standard-success .footer-container .footer { border: none; }
+
+/* =CC payone/wirecard overview-icon **************************************************************** */
+.cc-paymentform-list,
+.mzexpresscheckout-cards-add.active {
+    background: url("../images/icons-payment-facelift/cc-collection.png") no-repeat;
+}
+.mzcheckout-standard-payment .cc-paymentform-list.multiple-cc {
+    background-image: none;
+}
+.mzexpresscheckout-cards-add.active {
+    padding-top: 60px;
+}
+.channel-02 .cc-paymentform-list,                                               /* UK */
+.channel-02 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-05 .cc-paymentform-list,                                               /* USA */
+.channel-05 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-08 .cc-paymentform-list,                                               /* Japan */
+.channel-08 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-11 .cc-paymentform-list,                                               /* Middle East */
+.channel-11 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-12 .cc-paymentform-list,                                               /* Hongkong */
+.channel-12 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-13 .cc-paymentform-list,                                               /* Australia */
+.channel-13 .cc-paymentform-list .mzexpresscheckout-cards-add.active,
+.channel-14 .cc-paymentform-list,                                               /* Singapore */
+.channel-14 .cc-paymentform-list .mzexpresscheckout-cards-add.active {
+    background-image: url("../images/icons-payment-facelift/cc-collection-ddj.png");
+}
+.channel-10 .cc-paymentform-list,                                               /* France */
+.channel-10 .cc-paymentform-list .mzexpresscheckout-cards-add.active {
+    background-image: url("../images/icons-payment-facelift/cc-collection-cb.png");
+}
+/* END CC payone/wirecard overview-icon **************************************************************** */
+
+.cc-payment-form-card-cvv { background: transparent url("../images/i_payment.gif") 354px 0 no-repeat; }
+
+.payone-data-saved { text-align: center; }
+.payone-data-saved #payoneDisplayCcFormLink{ font-weight: bold; }
+
+#mzcheckout-container #content .p_method_description .input-box { line-height:1}
+#mzcheckout-container #content .p_method_description .form-list {padding:0; margin:0;}
+
+#mzcheckout-container #content .p_method_description .form-list label {width: auto; text-align:left; float:left}
+#mzcheckout-container #content .p_method_description .form-list input { float:left;}
+#mzcheckout-container #content .cvv-what-is-this { position:absolute; text-decoration: underline; margin: 6px 0 0 10px; }
+.mzcheckout-standard-payment #mzcheckout-container #content p.required {text-align: right;}
+
+#mzcheckout-container #content .p_method_description .cc-icons {position: absolute;width:174px;height: 40px;}
+#mzcheckout-container #content .p_method_description .form-list li.fields .field{ float: left; }
+#mzcheckout-container #content .p_method_description .input-box { margin-bottom: 1em; }
+#mzcheckout-container #content .p_method_description .input-box input {height: 14px;}
+#mzcheckout-container #content .p_method_description .input-box .cc-owner { margin-right: 20px;}
+
+#mzcheckout-container #content .p_method_description .input-box .cc-number { margin-right: 20px;}
+#mzcheckout-container #content .p_method_description .cc-label-small em { font-size: 11px; font-style: normal; color: #999; }
+#mzcheckout-container #content .p_method_description .input-box .validation-advice{ position: absolute;line-height:10px;}
+#mzcheckout-container #content .p_method_description .form-list li p.info{ text-align: right }
+
+.payment-backbutton-infotext { width: 470px; text-align: left; font-size: 11px; color: #999; margin: 5px 0 60px; }
+.payment-submitbutton-infotext { width: 470px; text-align: right; font-size: 11px; color: #999; margin: 5px 0 60px; float: right;position: relative;top: -94px;}
+.payment-submitbutton-infotext a {color: #999; text-decoration: underline;}
+
+.cc-payment-form-card-type,
+.cc-payment-form-card-holder,
+.cc-payment-form-card-number { clear:left; }
+
+#mzcheckout-container .radio-box label .cc-payment-form-card-number em { margin-top: 0; }
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_type {width:140px;}
+
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_number label{ padding-right: .5em}
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_owner,
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_number{ margin-right: 30px; }
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_owner,
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_cc_number{ width: 250px; height: 20px; }
+#mzcheckout-container #content .p_method_description .form-list li .cvv .input-box input{ height: 20px; }
+#mzcheckout-container #content .p_method_description .form-list li .validation-advice{ position: absolute;line-height:15px;}
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_expiration,
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_wirecard_creditcard_expiration{ width: 135px; }
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_payone_creditcard_expiration_yr,
+#mzcheckout-container #content .p_method_description .form-list li #mzpayment_wirecard_creditcard_expiration_yr{ width: 65px; }
+#mzcheckout-container #content .p_method_description .form-list li p.info{ text-align: right; }
+
+#mzcheckout-container .p_method_description h4 { font-size: 12px; margin-bottom: 1em; }
+#mzcheckout-container .sp-methods .p_method_description h4 { display: none; }
+
+#mzexpresscheckout-cards-wrapper { margin-bottom: 20px; }
+#mzcheckout-container #content .mzexpresscheckout-cards {
+    position: relative;
+    background-position: 205px 2px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E5E2;
+    margin-bottom: 10px;
+}
+.mzexpresscheckout-cards.amex { background-image: url("../images/icons-payment-facelift/amex.png"); }
+.mzexpresscheckout-cards.diners { background-image: url("../images/icons-payment-facelift/diners.png"); }
+.mzexpresscheckout-cards.discover { background-image: url("../images/icons-payment-facelift/discover.png"); }
+.mzexpresscheckout-cards.jcb { background-image: url("../images/icons-payment-facelift/jcb.png"); }
+.mzexpresscheckout-cards.mastercard { background-image: url("../images/icons-payment-facelift/mastercard.png"); }
+.mzexpresscheckout-cards.visa { background-image: url("../images/icons-payment-facelift/visa.png"); }
+
+
+.mzexpresscheckout-cards input { float: left; margin-right: 10px; }
+#mzcheckout-container .sp-methods .radio-box .cc-paymentform-list .mzexpresscheckout-cards label { width: 400px !important; margin-right: 0; }
+.cc-delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 12px;
+    background: url("../images/icon_delete.png") 0 5px no-repeat;
+}
+a.cc-add {
+    float: right;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    background-color: #E6E5E2;
+    -webkit-transition: background-color 0.4s ease-out;
+       -moz-transition: background-color 0.4s ease-out;
+         -o-transition: background-color 0.4s ease-out;
+            transition: background-color 0.4s ease-out;
+}
+a.cc-add:hover {
+    background-color: #D6D4D0;
+}
+#new-cc { float: left; margin-right: 10px; }
+.cc-pseudolabel { display: inline-block; width: 230px; }
+
+/* =Review */
+.mzcheckout-standard-review #content { color: #666; }
+#mzcheckout-container #content #mzcheckout-review .separator {font-size: 12px; font-weight: normal;}
+#mzcheckout-container #content #mzcheckout-review .tax-note {margin: 10px 0; border-top: 1px solid #E6E5E2; padding-top: 10px;}
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table { border: none;}
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table thead { background: none; }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table thead th {font-weight: bold; padding: 3px 12px }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table tbody td { border-bottom: 1px solid #E6E5E2; padding: 10px 12px; }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table tr.even {background: transparent;}
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table .btn-remove {display:inline}
+#mzcheckout-container #content #mzcheckout-review .shipping-review .col-1 address{ margin-bottom: 10px; }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table .product-image { float: left; }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table .product-name { font-weight: normal; }
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table .item-options dt,
+#mzcheckout-container #content #mzcheckout-review  #checkout-review-table .item-options dd {display: inline; font-weight: normal; background-image:none; padding:0;}
+
+#checkout-review-table tr.last h2 {
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#mzcheckout-review .shipping-review strong { font-weight: normal; }
+
+#mzcheckout-review #customer-account { margin-right: 5px; }
+#mzcheckout-review .review { margin-bottom: 20px; }
+#mzcheckout-review .customer-account { margin-bottom: 12px; padding: 0 10px 10px 0; }
+#mzcheckout-review .customer-comments { margin-top: 30px; }
+#mzcheckout-review .customer-comments h3 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #666;
+    margin-bottom: 5px;
+}
+#mzcheckout-review .customer-comments textarea { width: 460px; height: 90px; }
+.customer-comments .char-counter span.alert { color: #bb0000; }
+.customer-comments .char-counter { font-size: 11px; color: #999; margin: 5px 0 10px; }
+
+#mzcheckout-container #content #mzcheckout-review .actions-bottom {margin-top:20px}
+#mzcheckout-container #content #mzcheckout-review #holidaymsg { padding-top: 20px; color: #BB0000;}
+
+.mzcheckout-standard-review .page-title {
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+}
+.mzcheckout-standard-review .intro { margin-bottom: 40px; }
+#mzcheckout-review .col2-set > div,
+#mzcheckout-review .col-1-gift {
+    position: relative;
+    width: 428px;
+    height: 140px;
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid #E6E5E2;
+    margin-bottom: 20px;
+}
+.payment-review > div,
+#mzcheckout-review .col-1-gift  { min-height: 50px; }
+/* .shipping-review > div { min-height: 130px; } */
+#mzcheckout-review .back-button,
+#mzcheckout-review .back-edit {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    font-family: Arial, sans-serif;
+    text-transform: none;
+}
+#mzcheckout-review h3 { font-size: 12px; }
+#mzcheckout-review tfoot strong { color: #000; }
+#mzcheckout-review tfoot th { padding: 0; }
+/* END Review */
+
+#mzcheckout-container #content .name-prefix .input-box{ margin: 10px 0 12px; }
+#mzcheckout-container #content #mzcheckout-address .address-prefix {float: left; margin-right: 2em;}
+#mzcheckout-container #content #mzcheckout-address .name-prefix label{margin: 5px 0 0 0;}
+#mzcheckout-container #content #mzcheckout-address .name-prefix input { width: auto; margin-right: 2px; }
+#mzcheckout-container #content #mzcheckout-address .address-prefix label {
+    width: auto;
+    float: none;
+    padding: 0;
+    /* quick positioning fix */
+        position: relative;
+        top: 2px;
+        left: 2px;
+    /* END quick positioning fix */
+}
+
+#mzcheckout-container #content #mzcheckout-address .packstation-ckeckbox {
+    margin: 2px 2em 5px 0;
+    padding-top: 7px;
+    clear: left;
+}
+
+#mzcheckout-container #content #mzcheckout-address .packstation-ckeckbox input {
+    float: left;
+}
+#mzcheckout-container #content #mzcheckout-address .packstation-ckeckbox label {
+    width: auto;
+    float: none;
+    padding: 0;
+    /* quick positioning fix */
+    position: relative;
+    top: 0;
+    left: 2px;
+    /* END quick positioning fix */
+}
+
+#mzcheckout-review .review-bottom-wrapper-left {
+    float: left;
+    width: 720px;
+    margin-bottom: 20px;
+}
+#purchase-info-hint {
+    position: relative;
+    float: right;
+    width: 168px;
+    text-align: center;
+    font-family: "Times New Roman", serfif;
+    font-size: 12px;
+    font-style: italic;
+    color: #666;
+    padding: 15px 20px 5px;
+    border: 1px solid #F7E0DF;
+    margin: 25px 0 0 0;
+}
+#purchase-info-hint p { margin-bottom: 10px; }
+.purchase-info-hint-markuparrow {
+    position: absolute;
+    top: -9px;
+    left: 100px;
+    width: 11px;
+    height: 9px;
+    background: url("../images/markuparrow-purchase-info-hint.png");
+}
+
+#mzcheckout-container .loading { padding: 0; text-align: center; padding-top: 40px;}
+#mzcheckout-container .loading span {color: #999; display: block; padding-top: 20px; background: transparent url("../images/ajax-loader.gif") no-repeat top center; }
+#mzcheckout-container .actions-bottom .loading{ text-align: right; }
+#mzcheckout-container .actions-bottom .loading span{ display: inline; line-height: 25px }
+
+.mzcheckout-standard-index #mzcheckout-container #content .form-list .control {margin-bottom: 20px}
+
+/* =Success */
+.mzcheckout-standard-success .page-title { text-align: left; }
+.mzcheckout-standard-success .page-title h2 {
+    text-align: left;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+}
+#mzcheckout-container .success-newsletter-wrapper h3 { font-size: 12px; }
+.mzcheckout-standard-success .block { margin: 10px 0; background: transparent; }
+.mzcheckout-standard-success .order-page .page-title,
+.mzcheckout-standard-success .order-page .order-info,
+.mzcheckout-standard-success .order-page .order-date,
+.mzcheckout-standard-success .order-items .buttons-set { display: none; }
+.mzcheckout-standard-success #my-orders-table { width: 100%; }
+.mzcheckout-standard-success .info-box { background: none; border: 0; margin: 0; }
+.mzcheckout-standard-success .info-box .box-title { margin-left:0;}
+.mzcheckout-standard-success .info-box .box-content { color: #000; padding: 0; }
+.mzcheckout-standard-success .buttons-set a.button,
+.mzcheckout-standard-success .buttons-set button.button { float: none; }
+.mzcheckout-standard-success #content { background: url("../images/bkg_success.jpg") right top no-repeat; }
+.mzcheckout-standard-success .buttons-set button.button { margin-left: 0; }
+.success-wrapper,
+.success-newsletter-wrapper { padding-right: 520px; }
+.success-newsletter-wrapper { margin: 50px 0 90px; }
+.success-newsletter-wrapper p { margin-bottom: 12px; }
+/* END Success */
+
+/** Radio-Boxes -> Box with radio input field and label */
+#mzcheckout-container .radio-box { position: relative; margin-bottom: 10px !important; }
+#mzcheckout-container .radio-box input.radio{ position: absolute; top: 10px; left: 10px; }
+#mzcheckout-container .radio-box label { border: 1px solid #E6E5E2; padding: 10px 6px 15px 30px; cursor: pointer; width: 345px !important; display: block;}
+#mzcheckout-container .radio-box label.active { border-color: #D7C0C0; }
+#mzcheckout-container .radio-box label .price{ float: right; }
+#mzcheckout-container .radio-box label em{ display: block; margin-top: 20px; clear: both; font-style: normal; padding-right: 10px; }
+#mzcheckout-container .radio-box label strong{ float: left; }
+
+#mzcheckout-container .sp-methods .radio-box { border: 1px solid #E6E5E2; }
+#mzcheckout-container .sp-methods .radio-box.active { border-color: #D7C0C0; }
+#mzcheckout-container .sp-methods .radio-box > label { border: none; padding-bottom: 10px; width: auto !important; }
+#mzcheckout-container .sp-methods .radio-box label em { margin-top: 0; }
+
+#mzcheckout-container .sp-methods .radio-box .cc-paymentform-list label {
+    width: 190px !important;
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+    border: none;
+}
+
+.sp-methods .checkmo-mailing-address,
+.payment-review .checkmo-mailing-address { display: none !important; }
+
+#mzcheckout-container #mzcheckout-payment .radio-box .cc-paymentform-list .input-box { float: left; margin-bottom: 20px; }
+.cc-payment-form-card-type .custom-select { width: 268px; }
+.cc-payment-form-card-type .custom-select select { width: 300px; }
+.cc-payment-form-card-expiration .custom-select { width: 127px; }
+.cc-payment-form-card-expiration .v-fix:first-child { margin-right: 12px; }
+
+#mzcheckout-container .price-box .price{ font-weight: normal }
+
+#mzcheckout-container  #support-hint { clear: left; padding-top: 15px; }
+
+#p_method_info_paypal_express strong { width: 55px; text-indent: 99999em; overflow: hidden; background: transparent url(../images/payment_paypal.png) 0 0 no-repeat }
+#p_method_info_mzpayment_alipay strong { width: 55px; text-indent: 99999em; overflow: hidden; background: transparent url(../images/payment_alipay.png) 0 0 no-repeat }
+
+#mzcheckout-container #content #mzcheckout-review .customer-account .info-tooltip,
+.checkout-newsletter .info-tooltip { top: 5px; }
+
+#termscontent, #privacycontent {margin-top: 30px; height: 400px; overflow: scroll;}
+
+/** iDEAL CSS */
+#p_method_info_mzpayment_wirecard_ideal strong { width: 55px; height: 25px; text-indent: 99999em; overflow: hidden; background: transparent url(../images/payment_ideal_small.png) 0 0 no-repeat }
+.ideal-payment-form-description {padding-top: 15px;}
+.ideal-payment-form-institutions .input-box {background: #fff url(../images/payment_ideal_big.png) 5px 10px no-repeat; border: 0px solid; padding: 30px 10px 0 100px; margin-top: 20px; height:55px;}
+
+.checkout-footer { text-align: center; color: #666; padding-top: 15px; background-color: #fff; border-top: 1px solid #E6E5E2; }
+.checkout-footer h5 { font-family: "Times New Roman", serif; font-size: 15px; font-weight: normal; font-style: italic; margin-bottom: 10px; }
+.checkout-footer p { font-size: 11px; margin-bottom: 10px; }
+
+/** EPS CSS */
+#payment_form_mzpayment_payone_eps { padding-right: 66px; margin-top: -10px; }
+.eps-payment-form-institutions .input-box { background: #fff url("../images/payment_eps_big.png") 0 10px no-repeat; padding: 30px 10px 30px 100px; }
+.eps-payment-form-institutions .custom-select { width: 270px; }
+.eps-payment-form-institutions .custom-select select { width: 300px; }
+
+#mzcheckout-container #content .name-prefix .input-box{margin: 5px 0 15px;}
+#mzcheckout-container #content #mzcheckout-address .address-prefix {float: left; margin-right: 2em;}
+
+#mzcheckout-container #content #mzcheckout-address .name-prefix input {width: auto;}
+#mzcheckout-container #content #mzcheckout-address .address-prefix label {width: auto; float: none; padding: 0;}
+
+.ups-ap-zipcode-container { padding:30px 0 1px; width:498px; text-align:center; color:#666; }
+.ups-ap-zipcode-container p { margin:0 50px 30px; }
+.ups-ap-zipcode-container .input-text { padding:5px 20px; text-align:center; }
+#ups-ap-postal-code-submit { width:168px; padding-left:0; padding-right:0; }

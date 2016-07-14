@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+/****-------------紫玉巅-茶叶样式----------------*/
+
+#midsection {
+	width:940px;
+	margin:0 auto;
+    padding: 10px;
+}
+#midsection, #botsection {
+    font-family: "SackersGothicHeavy",Helvetica,Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom {
+    border-bottom: 1px solid #cccccc;
+}
+.sides {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+#midsection .columns {
+    float: left;
+    height: 457px;
+    width: 306px;
+}
+#col1 {
+}
+#midsection .columns .boxes {
+    /**border: 1px solid #dddddd;*/
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+}
+#col1 .promo1 {
+    height: 278px;
+    width: 304px;
+}
+#col1 .promo1 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/tea/M1.jpg") no-repeat scroll center center;
+    color: #000;
+    display: block;
+    height: 278px;
+    text-align: center;
+    width: 304px;
+}
+#midsection a {
+    text-decoration: none;
+}
+#col1 .promo1 .promoheading1 {
+    color: #fff;
+    float: left;
+    font-size: 10px;
+    padding: 177px 0 13px;
+    width: 100%;
+}
+#col1 .promo1 .promoheading2 {
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+#midsection, #botsection {
+    font-family: "SackersGothicHeavy",Helvetica,Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sides {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.bottom {
+    border-bottom: 1px solid #cccccc;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #000;
+    font: 12px/1.35 Arial,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#col1 .promo2 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/tea/M4.jpg") no-repeat scroll center center;
+    color: #fff;
+    display: block;
+    height: 165px;
+    text-align: center;
+    width: 304px;
+}
+#col2 .promo1 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/tea/M2_INTL.jpg") no-repeat scroll center center;
+    color: #000000;
+    display: block;
+    height: 455px;
+    text-align: center;
+    width: 306px;
+}
+#col3 .promo1 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/tea/imgad.jpg") no-repeat scroll center center;
+    color: #000000;
+    display: block;
+    height: 278px;
+    text-align: center;
+    width: 304px;
+}
+#col3 .promo2 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/tea/M5_v2.jpg") no-repeat scroll center center;
+    color: #fff;
+    display: block;
+    height: 165px;
+    text-align: center;
+    width: 304px;
+}

@@ -1,0 +1,1805 @@
+/*
+Template Name: 紫玉巅
+Template URI: http://www.ecshop.com/
+Description: 紫玉巅 V1.0
+Version: 2.7.2
+Author: ECSHOP Team
+Author URI: http://www.ecshop.com/
+Logo filename: logo.gif
+Template Type: type_0
+*/
+
+body {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    font: 12px/1.35 Arial,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background: none repeat scroll 0 0 #fff;
+    padding-bottom: 20px;
+}
+.zyd {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+.header-container {
+    color: #999;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.metanav-container::before, .metanav-container::after {
+    content: " ";
+    display: table;
+}
+.metanav-container::after {
+    clear: both;
+}
+.metanav-container {
+    margin: 10px 0 5px;
+    /**background-color:#eee;**/
+    height:30px;
+    line-height:12px;
+}
+.persistent-cart {
+    color: #999;
+    float: left;
+    margin-top: 10px;
+}
+ul.links, ul.links li {
+    display: inline;
+}
+ul, ol {
+    list-style: outside none none;
+}
+.persistent-cart li.first {
+    position: relative;
+}
+.persistent-cart .links > li {
+    margin-left: 0px;
+}
+ul.links {
+    display: inline;
+	padding-left:20px;
+}
+ul.links li {
+	display: inline;
+}
+.persistent-cart a {
+    color: #999;
+}
+.header-container a {
+    text-decoration: none;
+}
+.header-container a:hover {
+    color: #000;
+}
+a {
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.4s ease-out 0s;
+}
+.customer-flyout-container {
+    background: url("../ziyudian/images/header/bkg_arrow-box.png") no-repeat scroll -336px 0 rgba(0, 0, 0, 0);
+    display: none;
+    left: -120px;
+    position: absolute;
+    top: 15px;
+    width: 270px;
+    z-index: 99;
+}
+.customer-flyout-container .inner-wrapper {
+    padding-top: 30px;
+}
+.customer-flyout {
+    background-color: #fff;
+}
+.customer-flyout .block-account .block-title {
+    background-color: #f7e0df;
+    padding: 0 20px;
+}
+.customer-flyout .block-account h1 {
+    border-bottom: 1px solid #d6c0c0;
+    padding: 0 0 15px;
+}
+.customer-flyout h1 {
+    color: #666;
+    font-family: "Times New Roman",serif;
+    font-size: 15px;
+   /** font-style: italic;**/
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+.customer-flyout h1, .customer-flyout .registered-users .form-list, .customer-flyout .registered-users .buttons-set {
+    background-color: #f7e0df;
+    /**padding: 0 20px;**/
+}
+.customer-flyout .block-account h2 {
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 27px 0;
+}
+.customer-flyout .block-account .block-content {
+    border-bottom: 1px solid #e6e5e2;
+    border-left: 1px solid #e6e5e2;
+    border-right: 1px solid #e6e5e2;
+}
+.customer-flyout .block-account ul {
+    padding: 10px 30px;
+}
+.customer-flyout .block-account li {
+    border-bottom: 1px solid #f0eeeb;
+    display: block;
+}
+.customer-flyout .block-account a {
+    color: #666;
+}
+.customer-flyout .block-account a {
+    display: block;
+    font-size: 12px;
+    padding: 12px 0;
+}
+.persistent-cart a {
+    color: #999;
+}
+.header-container a {
+    text-decoration: none;
+}
+.customer-flyout .block-account li.last {
+    border: medium none;
+}
+.customer-flyout .block-account li.last a {
+    color: #333;
+}
+.account-login {
+    color: #666;
+}
+form {
+    display: inline;
+}
+.customer-flyout .account-login .fieldset {
+    margin: 0;
+}
+.account-login .fieldset {
+    margin: 55px 0;
+}
+.fieldset {
+    font-size: 12px;
+    margin: 0 0 16px;
+}
+.customer-flyout .account-login .registered-users, .customer-flyout .account-login .new-users {
+    border: medium none;
+    padding: 0;
+    width: auto;
+}
+.account-login .registered-users {
+    border-right: 1px solid #e6e5e2;
+}
+.account-login .new-users, .account-login .registered-users {
+    padding: 0 32px 30px;
+    width: 381px;
+}
+.customer-flyout .registered-users .form-list {
+    overflow: hidden;
+}
+.form-list li {
+    margin: 0 0 9px;
+    vertical-align: top;
+}
+.customer-flyout .form-list .input-box {
+    margin-bottom: 10px;
+}
+.account-login .form-list .input-box {
+    float: none;
+}
+.form-list .input-box {
+    float: left;
+}
+.customer-flyout .form-list input.input-text {
+    color: #666;
+    float: none;
+    letter-spacing: 1px;
+    width: 218px;
+}
+.account-login .form-list input.input-text {
+    padding: 5px;
+}
+.customer-flyout input.input-text {
+    border-color: #e6e5e2;
+}
+.form-list input.input-text, .form-list textarea {
+    float: left;
+    vertical-align: top;
+    width: 374px;
+}
+.account-login .input-text {
+    max-width: 258px;
+}
+input.input-text, textarea {
+    background: none repeat scroll 0 0 #fff;
+    padding: 2px;
+}
+input.input-text, select, textarea {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e6e5e2;
+}
+input, select, textarea, button {
+    color: #666;
+    font: 12px/1.35 Arial,sans-serif;
+    vertical-align: middle;
+}
+
+.customer-flyout .account-login .buttons-set {
+    margin: 0;
+    padding: 0 20px;
+}
+.account-login p.required, .account-login .btn-only {
+    width: auto;
+}
+.form-buttons {
+    margin: 0;
+    width: 620px;
+}
+.buttons-set {
+    clear: both;
+    margin: 15px 0;
+}
+.customer-flyout .registered-users .buttons-set button.button {
+    border: 1px solid #d6c0c0;
+    margin: 10px 0 25px;
+}
+.customer-flyout .buttons-set button.button {
+    border-color: #e6e5e2;
+    float: none;
+    font-family: Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif;
+    height: 30px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.buttons-set a.button, .buttons-set button.button {
+    float: right;
+    margin-left: 7px;
+}
+.form-buttons .button {
+    margin-left: 15px;
+}
+.form-buttons .button {
+    float: right;
+}
+.customer-flyout .buttons-set button.button span {
+    color: #666;
+}
+button span span {
+    padding: 0 10px;
+    white-space: nowrap;
+}
+button span {
+    display: inline-block;
+}
+.customer-flyout .account-login .registered-users p {
+    border-left: 1px solid #e6e5e2;
+    border-right: 1px solid #e6e5e2;
+    color: #666;
+    line-height: 18px;
+    margin: 0;
+    padding: 20px 35px 0;
+}
+.fieldset p {
+    margin: 0 0 1.5em;
+}
+.customer-flyout .account-login .registered-users p.forgot-pw {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.customer-flyout .forgot-pw a {
+    color: #999;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+.customer-flyout .account-login .new-users {
+    border-bottom: 1px solid #e6e5e2;
+    border-left: 1px solid #e6e5e2;
+    border-right: 1px solid #e6e5e2;
+}
+.customer-flyout .new-users .buttons-set button.button {
+    margin: 25px 0 20px;
+}
+
+.customer-flyout-container .flyout-close {
+    background-image: url("../ziyudian/images/header/icon_delete.png");
+    height: 7px;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 17px;
+    width: 7px;
+}
+button:hover, a.button:hover {
+    background-color: #d6d4d0;
+}
+
+.quick-access {
+    float: right;
+}
+#search_mini_form .form-search {
+    position: relative;
+}
+#search_mini_form .form-search {
+    border: 1px solid #e6e5e2;
+}
+#search_mini_form .form-search label {
+    display: none;
+}
+#search_mini_form .form-search input {
+    background: url("../ziyudian/images/header/icon_search.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    border: medium none;
+    /**color: #999**/;
+    font-size: 11px;
+    height: 22px;
+    letter-spacing: 1px;
+    padding: 0 23px 0 10px;
+    width: 167px;
+}
+#search_mini_form .form-search button {
+    background: none repeat scroll 0 0 #f0eeeb; /** #f0eeeb**/
+    border: medium none;
+    color: #666;
+    font-size: 0;
+    height: 28px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    padding: 0;
+    text-transform: uppercase;
+    width: 0;
+}
+button, a.button {
+    background-color: #f0eeeb;
+    border: medium none;
+    color: #666;
+    cursor: pointer;
+    font-family: Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.4s ease-out 0s;
+}
+
+#search_mini_form .form-search button span span {
+    padding: 0 10px 0 12px;
+}
+#search_autocomplete {
+    background: url("../ziyudian/images/header/bkg_suggest_fauxcolumn.png") repeat-y scroll 0 0 #fff;
+    border-bottom: 1px solid #e6e5e2;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: -1px;
+    text-align: left;
+    top: 35px !important;
+    width: 617px;
+    z-index: 999;
+}
+:focus {
+    outline: 0 none;
+}
+
+
+.header {
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.header .logo strong {
+    font-size: 0;
+    height: 0;
+    left: -999em;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999em;
+    top: -999em;
+    width: 0;
+}
+.header-container a {
+    text-decoration: none;
+}
+.header-container img {
+    border: 0 none;
+    vertical-align: top;
+}
+.header .strapline {
+	color: #000;
+    font-family: modernNAP-SubheadItalic;
+    font-size: 12px;
+    letter-spacing: 2;
+    margin-top: 7px;	
+}
+
+/************紫玉巅头部导航菜单样式 ************/
+.sticky-nav {
+    background:none repeat scroll 0 0 #000;/**rgba(0, 0, 0, 0.6);#000;**/
+    height:30px;
+    border-bottom: 1px solid #e6e5e2;
+    width: 100%;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    -webkit-transform: translateZ(0); /* chrome fix */
+}
+.nav-fixed .header {
+	margin-bottom: 60px;
+}
+.nav-container {
+    position: relative;
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#nav li.level-top {
+    float: left;
+    width:14.2857%;
+}
+/**#nav li.level-top a:hover {
+	border-bottom:1px solid #000;
+	height:25px;
+}**/
+#nav li.level-top.over {
+    background: transparent url("../ziyudian/images/header/top-arrow.png") no-repeat scroll center bottom;
+}
+#nav li.first a.level-top {
+    padding-left: 0;
+}
+#nav li.last a.level-top {
+	padding-right: 0;
+}
+
+#nav a.level-top {
+    color: #fff;
+    display: block;
+    font-family: DFKai-SB;
+    font-size: 15px;
+    /**letter-spacing: .2em;**/
+    padding: 5px 0px 0px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+#nav ul li.over a.over,
+#nav ul li a:hover,
+#nav a.level-top:hover,
+#nav a.level-top.over,
+#nav li.level-top.active a.level-top,
+#nav li.level-top.active > a,
+#nav li.level-top.over > a { opacity:0.65;/**color: #fff;**/ }
+
+.nav-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    background-image: url('../ziyudian/images/header/btn_close_flyout_tablet.png');
+}
+
+/* All Levels */
+#nav li.over { z-index:990; }
+#nav li a span {
+    cursor: pointer;
+}
+#nav .flyout-wrapper {
+    background: url("../ziyudian/images/header/bkg_mainnav_flyout.png") no-repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #e6e5e2;
+    color: #666;
+    font-size: 12px;
+    height: 368px;
+    left: -10000em;
+    overflow: hidden;
+    padding-left: 20px;
+    position: absolute;
+    top: 35px;
+    width: 920px;
+       -moz-box-shadow: 0 2px 3px 0 #f2f1ed;
+    -webkit-box-shadow: 0 2px 3px 0 #f2f1ed;
+            box-shadow: 0 2px 3px 0 #f2f1ed;
+}
+#nav .flyout-wrapper > ul {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 160px;
+}
+
+#nav .flyout-wrapper .nav-narrow-column { width: 185px; margin: 0; }
+#nav .flyout-wrapper .nav-narrow-column a { padding-bottom: 0; }
+/* Show Menu */
+#nav .flyout-wrapper.shown-sub {
+    left: 0;
+    z-index: 991;
+}
+#nav div ul {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none !important;
+    padding: 0;
+    position: static;
+    width: auto;
+}
+#nav .nav-category-headline {
+    color: #666;
+    font-family: "Times New Roman",serif;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 10px 0 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: none;
+    white-space: nowrap;
+}
+#nav ul li {
+    display: block;
+    float: none;
+    height: auto;
+    text-align: left;
+}
+#nav ul li a {
+    color: #666;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-transform: none;
+}
+#nav ul li.parent { 
+	background:url(../ziyudian/images/header/bkg_parent.gif) 100% 50% no-repeat; 
+}
+#nav ul li.last {
+    border-bottom: 0 none;
+}
+#nav .flyout-wrapper > ul.nav-flyout-image {
+    float: right;
+    margin: 40px 0 0;
+    width: auto;
+}
+#nav .nav-flyout-image a {
+    display: inline;
+    padding-bottom: 0;
+}
+/* 3rd+ Level */
+#nav ul ul,
+#nav ul div { top:7px; border-top:1px solid #aeaeae; }
+/* custom hiding */
+.parent-designers .subcategories,
+.parent-shops .subcategories,
+.parent-looks .subcategories {
+    display: none;
+}
+
+
+
+img {
+	vertical-align:top;
+	border-top-color:currentColor;
+	border-right-color:	currentColor;
+	border-bottom-color: currentColor;
+	border-left-color: currentColor;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/*广告位1样式*/
+.zyd_ad {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.ad1 {
+	margin: 0px auto;	
+}
+.ad2 {
+	width:479px;
+	float:left;
+}
+.ad3 {
+	width:479px;
+	float:right;
+}
+.ad4 {
+	width:479px;
+	float:right;
+}
+.ad5 {
+	width:318px;
+	float:left;
+}
+.ad6 {
+	width:318px;
+	float:left;
+	margin-left:3px;
+}
+.ad7 {
+	width:318px;
+	float:right;
+	margin-left:3px;
+}
+
+/*经典精选*/
+.classic {
+	width: 100%;
+	margin-bottom:480px;
+}	
+.classic .one
+{
+	width: 479px; 
+	height: 467px;
+	margin: 0px 0px 0px 0px; 
+	float:left;
+}
+.classic .two
+{
+	width: 479px; height: 231px; margin: 0px 0px 0px 0px; float: right;
+}
+.classic .three
+{
+	width: 479px; height: 231px; margin: 5px 0px 0px 0px; float: right;
+}
+.zyd_condition a:hover {
+	/**box-shadow: 0px 0px 15px #000;**/
+}
+/****-------------紫玉巅-首页 -最新上架----------------*/
+.recommend_new {
+    width:960px;
+    margin:0px auto;
+}
+.reconew {
+	margin-top:25px;
+}
+.recommend_new .module-hd {
+   /* margin-bottom: 35px;**/
+}
+.module-hd {
+    position: relative;
+}
+.module-hd .line {
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    margin-top:-19px;
+}
+.recommend_new .module-hd .module-title {
+    width: 200px;
+}
+.module-hd .module-title {
+    margin: 0 auto;
+    position: relative;
+}
+
+.recommend_new .module-hd h2 a {
+    background: url("../ziyudian/images/index/new_add.jpg") no-repeat scroll 0px 0 rgba(0, 0, 0, 0);
+    height: 50px;
+}
+.module-hd h2 a {
+    display: block;
+    text-indent: -9999px;
+}
+.module-hd a {
+    color: #555;
+    font-size: 16px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.module-bd {
+    margin: 25px auto;
+    position: relative;
+    width: 960px;
+}
+
+.imgcard {
+    border: 1px solid #d8d8d8;
+    float: right;
+    margin-left: 28px;
+    padding: 12px 14px 0;
+    transition: all 0.15s ease 0s;
+    width: 270px;
+}
+.imgcard .img {
+    display: block;
+}
+.imgcard .img img {
+    display: block;
+}
+.imgcard .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard a:hover {
+	color: #e00024;	
+}
+.imgcard:hover {
+    box-shadow: 0 0 9px #666;
+}
+
+.imgcard2 {
+    border: 1px solid #d8d8d8;
+    float: right;
+    margin-right: 28px;
+    padding: 12px 14px 0;
+    transition: all 0.15s ease 0s;
+    width: 270px;
+}
+.imgcard2 .img {
+    display: block;
+}
+.imgcard2 .img img {
+    display: block;
+}
+.imgcard2 .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard2 a:hover {
+	color: #e00024;	
+}
+.imgcard2:hover {
+    box-shadow: 0 0 9px #666;
+}
+
+.imgcard3 {
+    border: 1px solid #d8d8d8;
+    float: right;
+    padding: 12px 16px 0;
+    transition: all 0.15s ease 0s;
+    width: 270px;
+}
+.imgcard3 .img {
+    display: block;
+}
+.imgcard3 .img img {
+    display: block;
+}
+.imgcard3 .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard3 a:hover {
+	color: #e00024;	
+}
+.imgcard3:hover {
+    box-shadow: 0 0 9px #666;
+}
+
+.topic-list {
+    border: 1px solid #d8d8d8;
+    padding: 12px 16px 14px;
+    width: 270px;
+}
+.fr {
+    float: right;
+}
+.topic-list .tl-noborder {
+    border-top: medium none;
+    padding-top: 13px;
+}
+.topic-list .tl-content {
+    /**border-top: 1px solid #e3e3e3;**/
+    padding-top: 12px;
+    text-align:left;
+}
+.topic-list li {
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 14px;
+}
+.num {
+    background: url("../ziyudian/images/index/num.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding-left: 32px;
+}
+.topic-list ul a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+.topic-list ul a:hover {
+    color:#e00024;
+    text-decoration:none;
+    font-weight:bold;
+}
+.num2 {
+    background-position: 0 -30px;
+}
+.num3 {
+    background-position: 0 -60px;
+}
+.num4 {
+    background-position: 0 -90px;
+}
+.num5 {
+    background-position: 0 -120px;
+}
+.num6 {
+    background-position: 0 -150px;
+}
+.num7 {
+    background-position: 0 -180px;
+}
+.num8 {
+    background-position: 0 -210px;
+}
+.num9 {
+    background-position: 0 -240px;
+}
+.num10 {
+    background-position: 0 -270px;
+}
+
+
+/****-------------紫玉巅-首页 -紫砂壶样式----------------*/
+.ziyudian_f {
+	width:960px;	
+	margin:10px auto 0;
+}
+.zshIndex{
+	margin-top:25px;
+}
+.ziyudian {
+	/**margin-bottom:25px;**/	
+}
+.ziyudian_f .module-hd .module-title {
+    width: 200px;
+}
+.ziyudian_f .module-hd h2 a {
+    background: url("../ziyudian/images/index/zishahu.jpg") no-repeat scroll 0px 0 rgba(0, 0, 0, 0);
+    height: 50px;
+}
+.ziyudian_f .zyd-border .side {
+    border: 1px solid #c1c1c1;
+    height: 338px;
+    overflow: hidden;
+    width: 302px;
+}
+.ziyudian_f .zyd-border .side.ad {
+    border: medium none;
+    height: 340px;
+    overflow: hidden;
+    width: 304px;
+    margin-top:-10px;
+}
+.ziyudian_f .side {
+    float: left;
+    height: 340px;
+    width: 304px;
+}
+.module-bd .side.ad img {
+    margin: 0;
+}
+.ziyudian_f .zyd-border img {
+    margin: -1px;
+}
+.ziyudian_f img {
+    display: block;
+}
+.ziyudian_f .side .b-line {
+    background: url("../ziyudian/images/index/zyd-line.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    bottom: -16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    width: 304px;
+}
+.ziyudian_f .zyd-border .main {
+    border: 1px solid #c1c1c1;
+    height: 338px;
+    overflow: hidden;
+    width: 650px;
+    margin-top:-10px;
+}
+.ziyudian_f .main {
+    float: right;
+    height: 340px;
+    width: 652px;
+}
+.ziyudian .swiper-container {
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    width: 652px;
+}
+.swiper-wrapper {
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0s;
+    transition-property: transform, left, top;
+    transition-timing-function: ease;
+    width: 100%;
+}
+.swiper-slide {
+    float: right;
+    position: relative;
+    width: 100%;
+}
+.swiper-slide img {
+    display: block;
+}
+
+.ziyudian_f .main .title-mask {
+    background: url("../ziyudian/images/index/zsh-mask.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 652px;
+}
+.ziyudian_f .main .title-mask a {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 3px #000;
+    white-space: nowrap;
+}
+.pre-arrow {
+    left: 0;
+}
+.pre-arrow2 {
+    left: 0;
+}
+.arrow {
+    cursor: pointer;
+    height: 73px;
+    margin-top: -36px;
+    position: absolute;
+    top: 50%;
+    width: 57px;
+    z-index: 1000;
+}
+.arrow-bg {
+    background: url("../ziyudian/images/index/zyd-element.png") repeat scroll 0 -220px rgba(0, 0, 0, 0);
+    height: 73px;
+    opacity: 0;
+    transition: opacity 1s ease 0s;
+}
+.ziyudian:hover .arrow-bg {
+    opacity: 1;
+}
+.pre-arrow i {
+    background-position: 0 -77px;
+}
+.pre-arrow2 i {
+    background-position: 0 -77px;
+}
+.arrow i {
+    background-image: url("../ziyudian/images/index/zyd-element.png");
+    height: 73px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+.next-arrow {
+    right: 0;
+}
+.next-arrow i {
+    background-position: 0 -150px;
+}
+.next-arrow2 {
+    right: 0;
+}
+.next-arrow2 i {
+    background-position: 0 -150px;
+}
+.ziyudian .pagination {
+    width: 652px;
+}
+.pagination {
+    bottom: -35px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.ziyudian .pagination2 {
+    width: 652px;
+}
+.pagination2 {
+    bottom: -35px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.swiper-active-switch {
+    background-position: -44px 0 !important;
+}
+.swiper-pagination-switch {
+    background-image: url("../ziyudian/images/index/zyd-element.png");
+    background-position: -35px 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 9px;
+    margin: 0 8px;
+    width: 9px;
+}
+.ziyudian_f .main .b-line {
+    background: url("../ziyudian/images/index/zsh-banner-line.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    bottom: -17px;
+    height: 17px;
+    right: 0;
+    position: absolute;
+    width: 652px;
+}
+
+.module-bd-zsh {
+    margin: 0px auto;
+    position: relative;
+    width: 960px;
+}
+.fr_zsh {
+    float: left;
+}
+.topic-list-zsh {
+    border: 1px solid #d8d8d8;
+    /**padding: 12px 16px 14px;**/
+    width: 300px;
+}
+.topic-list-zsh .tl-noborder {
+    border-top: medium none;
+    padding-top: 13px;
+}
+.topic-list-zsh .tl-content {
+    /**border-top: 1px solid #e3e3e3;**/
+    padding-top: 16px;
+    text-align:left;
+}
+.topic-list-zsh li {
+    font-size: 14px;
+    height: 17px;
+    line-height: 17px;
+    margin-bottom: 14px;
+}
+.topic-list-zsh ul a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+.topic-list-zsh ul a:hover {
+    color:#e00024;
+    text-decoration:none;
+    font-weight:bold;
+}
+.imgcard_zsh {
+    border: 1px solid #d8d8d8;
+    float: right;
+    margin-left: 28px;
+    /**padding: 12px 14px 0;**/
+    transition: all 0.15s ease 0s;
+    width: 300px;
+}
+.imgcard_zsh .img {
+    display: block;
+}
+.imgcard_zsh .img img {
+    display: block;
+}
+.imgcard_zsh .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard_zsh a:hover {
+	color: #e00024;	
+}
+.imgcard_zsh:hover {
+    box-shadow: 0 0 9px #666;
+}
+.imgcard2_zsh {
+    border: 1px solid #d8d8d8;
+    float: right;
+    /**margin-right: 28px;
+    padding: 12px 14px 0;**/
+    transition: all 0.15s ease 0s;
+    width: 300px;
+}
+.imgcard2_zsh .img {
+    display: block;
+}
+.imgcard2_zsh .img img {
+    display: block;
+}
+.imgcard2_zsh .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard2_zsh a:hover {
+	color: #e00024;	
+}
+.imgcard2_zsh:hover {
+    box-shadow: 0 0 9px #666;
+}
+
+/*紫砂壶图片库样式*/
+.gallery {
+    margin-bottom: 50px;
+}
+.module-bd-zsh-images {
+    margin: 35px auto;
+    position: relative;
+    width: 960px;
+}
+.module-zsh .module-bd-zsh-images li {
+    float: left;
+    position: relative;
+}
+.module-zsh .module-bd-zsh-images li a {
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    display: block;
+    height: 249px;
+    overflow: hidden;
+    width: 239px;
+}
+.module-zsh .module-bd-zsh-images li img {
+    display: block;
+    margin-top: -1px;
+    transition: all 1s ease 0s;
+}
+.module-zsh .tag {
+    height: 20px;
+    width: 185px;
+    z-index: 999;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden;
+    /**cursor: pointer;
+    display: none;
+    left: 50%;
+    line-height: 19px;
+    padding: 8px 15px 0;
+    position: absolute;
+    top: 40%;**/
+}
+.module-zsh .module-bd-zsh-images li a:hover img {
+    /**transform: scale(1.1, 1.1) rotate(0.01deg);**/
+    -webkit-transform:scale(1.1, 1.1) rotate(-30deg);    /* for Chrome || Safari */
+    -moz-transform:scale(1.1, 1.1) rotate(-30deg);       /* for Firefox */
+    -ms-transform:scale(1.1, 1.1) rotate(-30deg);        /* for IE */
+    -o-transform:scale(1.1, 1.1) rotate(-30deg);         /* for Opera */
+}
+
+
+/****-------------紫玉巅-首页 -紫玉精品样式----------------*/
+.ziyudian_s {
+	width:960px;	
+	margin:0 auto 0;
+}
+.zyjpIndex{
+	margin-top:25px;
+}
+.ziyudian_s .module-hd .module-title {
+    width: 200px;
+}
+.ziyudian_s .module-hd h2 a {
+    background: url("../ziyudian/images/index/ziyujingpin.jpg") no-repeat scroll 0px 0 rgba(0, 0, 0, 0);
+    height: 50px;
+}
+.ziyudian_s .side {
+    float: left;
+    height: 340px;
+    width: 304px;
+    margin-top:-10px;
+}
+.ziyudian_s .zyd-border img {
+    margin: -1px;
+}
+.ziyudian_s img {
+    display: block;
+}
+.ziyudian_s .side .b-line {
+    background: url("../ziyudian/images/index/zyd-line.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    bottom: -16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    width: 304px;
+}
+.ziyudian_s .main {
+    float: right;
+    height: 340px;
+    width: 652px;
+    margin-top:-10px;
+}
+.ziyudian_s .main .title-mask {
+    background: url("../ziyudian/images/index/zsh-mask.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 652px;
+}
+.ziyudian_s .main .title-mask a {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 3px #000;
+    white-space: nowrap;
+}
+.imgcard .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    padding-bottom: 12px;
+}
+.topic-list .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+.module-bd-zyjp {
+    position: relative;
+    width: 960px;
+}
+.imgcard_zyjp {
+    border: 1px solid #d8d8d8;
+    float: left;
+    margin-right: 27px;
+    margin-left:27px;
+    transition: all 0.15s ease 0s;
+    width: 300px;
+}
+.imgcard_zyjp .img img {
+    display: block;
+}
+.imgcard_zyjp .img span {
+    display: block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard_zyjp_r {
+    border: 1px solid #d8d8d8;
+    float: left;
+    transition: all 0.15s ease 0s;
+    width: 300px;
+}
+.imgcard_zyjp_r .img img {
+    display: block;
+}
+.imgcard_zyjp_r .img span {
+    display: block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard_zyjp:hover {
+    box-shadow: 0 0 9px #666;
+}
+.imgcard_zyjp_r:hover {
+    box-shadow: 0 0 9px #666;
+}
+.imgcard_zyjp a:hover {
+	color: #e00024;	
+}
+.imgcard_zyjp_r a:hover {
+	color: #e00024;	
+}
+
+/****-------------紫玉巅-首页 -天天一拍样式----------------*/
+.ziyudian_t {
+    width: 960px;
+    margin:0 auto 0;
+}
+.auctionIndex{
+	margin-top:25px;
+}
+.module-aution {
+	margin-bottom: 35px;
+    position: relative;
+}
+.module-aution .line {
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    margin-top:-19px;
+}
+.ziyudian_t .module-aution .module-title {
+    width: 200px;
+}
+.module-aution .module-title {
+    margin: 0 auto;
+    position: relative;
+}
+.ziyudian_t .module-aution h2 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/index/dauction.jpg") no-repeat scroll 0 0;
+    height: 50px;
+}
+.module-aution h2 a {
+    display: block;
+    text-indent: -9999px;
+}
+.ziyudian_t .module-aution .autor_name {
+	float:left;margin-left:100px;border-bottom:1px dashed #000;
+}
+.ziyudian_t .module-aution .auction_time {
+	float:right;margin-right:100px;border-bottom:1px dashed #000;
+}
+.ziyudian_t .module-aution .auction_time span {
+	color:red;
+	margin-left:5px;
+	margin-right:5px;
+}
+.imgcard_dauction_l {
+	float:left;
+    border: 1px solid #d8d8d8;
+    padding: 12px 16px 0px;
+    width: 270px;
+}
+.imgcard_dauction_l .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    padding-bottom: 12px;
+}
+.imgcard_dauction_l .img {
+    display: block;
+}
+.imgcard_dauction_l .img img {
+    display: block;
+}
+.imgcard_dauction_l .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard_dauction_l a:hover {
+	color: #e00024;	
+}
+.imgcard_dauction_l:hover {
+    box-shadow: 0 0 9px #666;
+}
+.imgcard_dauction {
+    border: 1px solid #d8d8d8;
+    float: right;
+    margin-left: 28px;
+    padding: 12px 14px 0;
+    transition: all 0.15s ease 0s;
+    width: 270px;
+}
+.imgcard_dauction .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    padding-bottom: 12px;
+}
+.imgcard_dauction .img {
+    display: block;
+}
+.imgcard_dauction .img img {
+    display: block;
+}
+.imgcard_dauction .img span {
+    display: block;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imgcard_dauction a:hover {
+	color: #e00024;	
+}
+.imgcard_dauction:hover {
+    box-shadow: 0 0 9px #666;
+}
+
+/****-------------紫玉巅-首页 -茶叶样式----------------*/
+.ziyudian_tea {
+    width: 960px;
+    margin:0 auto;
+}
+.teaIndex{
+	margin-top:25px;
+}
+.ziyudian_tea .module-hd .module-title {
+    width: 200px;
+}
+.ziyudian_tea .module-hd h2 a {
+    background: rgba(0, 0, 0, 0) url("../ziyudian/images/index/jingdianmingcha.jpg") no-repeat scroll 0 0;
+    height: 50px;
+}
+.ziyudian_tea .module-hd .autor_name {
+	float:left;margin-left:100px;border-bottom:1px dashed #000;
+}
+.ziyudian_tea .module-hd .auction_time {
+	float:right;margin-right:100px;border-bottom:1px dashed #000;
+}
+.ziyudian_tea .module-hd .auction_time span {
+	color:red;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/****-------------紫玉巅-首页 -快捷菜单样式----------------*/
+.sidenav {
+    bottom: 20px;
+    font-family: "Microsoft Yahei";
+    position: fixed;
+    right: 55px;
+    z-index: 8000;
+}
+.sidenav .channels {
+    bottom: 150px;
+    display: none;
+    left: -3px;
+    position: absolute;
+    width: 100px;
+}
+.sidenav .one-channel {
+    height: 15px;
+    line-height: 15px;
+    position: relative;
+}
+.sidenav .channels .icon {
+    background-image: url("../ziyudian/images/index/zyd-element.png");
+    background-position: -44px -9px;
+    height: 7px;
+    left: 4px;
+    position: absolute;
+    top: 6px;
+    width: 7px;
+}
+.sidenav .channel-name {
+    border-radius: 10px;
+    color: #787878;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 17px;
+    padding: 2px 8px;
+}
+.sidenav .one-channel:hover .channel-name, .sidenav .active .channel-name {
+    background-color: #a9a9a9;
+    color: #fff;
+}
+.sidenav .one-channel:hover .icon, .sidenav .channels .active .icon {
+    background-position: -104px 0;
+    height: 15px;
+    left: 0;
+    top: 1px;
+    width: 15px;
+}
+.sidenav .channels .em {
+    border-left: 1px solid #e0e0e0;
+    color: #e0e0e0;
+    height: 11px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.sidenav .to-module {
+    background-image: url("../ziyudian/images/index/zyd-element.png");
+    background-position: -60px -88px;
+    cursor: pointer;
+    height: 44px;
+    margin-bottom: 2px;
+    position: relative;
+    width: 44px;
+}
+.sidenav .to-module:hover {
+    background-position: -60px -132px;
+}
+.sidenav .to-weixin {
+    background-image: url("../ziyudian/images/index/float.png");
+    background-position: 0 -44px;
+    cursor: pointer;
+    height: 44px;
+    margin-bottom: 2px;
+    position: relative;
+    width: 44px;
+}
+.sidenav .to-weixin:hover .weixin-expand {
+    display: block;
+}
+.sidenav .weixin-expand {
+    background-color: #d7d7d7;
+    bottom: 0;
+    display: none;
+    height: 160px;
+    left: -135px;
+    position: absolute;
+    width: 135px;
+}
+.sidenav .weixin-expand img {
+    border: 1px solid #ddd;
+    display: block;
+    margin: 9px auto 0;
+}
+.sidenav .weixin-expand div {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.sidenav .to-top {
+    /*background: rgba(0, 0, 0, 0) url("../ziyudian/images/index/float.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 44px;
+    width: 44px;**/
+    
+    background: #383838 url("http://wxwhwj.com/skin/inho/images/turn_top-right.png") no-repeat scroll 3px 0;
+    cursor: pointer;
+    height: 33px;
+    margin-left: 0;
+    width: 41px;
+}
+.sidenav .to-top:hover {
+   /** background-position: right top;**/
+}
+
+/*首页紫玉巅banner翻页样式*/
+.bullet-wrap {
+    height: 18px;
+    position: relative;
+    text-align: center;
+    width:960px;
+    margin:10px auto;
+    margin-top: 10px;
+}
+.bullet.sel, .dark-ui .bullet.sel {
+    opacity: 1;
+}
+.bullet {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 5px;
+    opacity: 0.15;
+    width: 8px;
+}
+.bullet-wrap a.prev,.bullet-wrap a.next {
+    background: rgba(0, 0, 0, 0) url("http://curiator.com/static/css/elms/arrows_prevnext_sp.svg") no-repeat scroll -5px -45px;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    height: 30px;
+    left: 0;
+    line-height: 18px;
+    position: absolute;
+    width: 30px;
+}
+.bullet-wrap a.next {
+    background-position: -5px -5px;
+    left: auto;
+    right: 0;
+}
+
+/*首页紫玉巅文字样式*/
+.std {
+	text-align:left;	
+}
+.trust-box {
+    background-color: #fff;
+    border-top: 1px solid #e6e5e2;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    width: 960px;
+}
+.trust-box .border-box .trust-left {
+    float: left;
+    font-size: 11px !important;
+    padding: 22px;
+    position: relative;
+}
+.trust-box .border-box .trust-left h2 {
+    color: #000;
+    font-family: Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.trust-box .border-box .trust-left h3 {
+    color: #000;
+    font-family: Futura,"Century Gothic","Gill Sans",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.std ul {
+    list-style: outside none disc;
+    padding-left: 1.5em;
+}
+.std ul li {
+    height:25px;
+    line-height:25px;
+}
+
+
+
+/*购物车样式*/
+.sn-sidebar-tab-cart {
+    color: #fff;
+    height: auto;
+    margin-bottom:10px;
+}
+.sn-sidebar-tab {
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    height: 30px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 44px;
+}
+.sn-sidebar-tab a {
+    text-decoration: none;
+}
+.tab-cart-tip-warp-box {
+    background-color: #383838;
+    padding: 0 3px;
+    width: 35px;
+}
+.sn-sidebar-tab-cart .tab-cart-tip-warp {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4d4d4d;
+    border-image: none;
+    /**border-style: solid;
+    border-width: 1px 0;**/
+    cursor: pointer;
+    padding: 3px 0 10px;
+    text-align: center;
+}
+
+.sn-sidebar-tab .tab-icon,.sn-sidebar-tab .tab-icon-tip,.tab-tip-code-warp .icon {
+    background: rgba(0, 0, 0, 0) url("http://img.suning.cn/public/v3/css/images-sidebar/sidebaricon.png") no-repeat scroll 0 0;
+}
+.sn-sidebar-tab-cart .tab-icon {
+    background-position: -31px -23px;
+    width: 29px;
+}
+.sn-sidebar-tab .tab-icon {
+    background-color: #383838;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    position: relative;
+    width: 35px;
+    z-index: 2;
+    margin-left:3px;
+}
+.sn-sidebar-tab .tab-icon-cart-tip {
+    top: 50%;
+}
+.sn-sidebar-tab .tab-icon-tip {
+    background-position: 0 -270px;
+    cursor: pointer;
+    display: none;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 4px;
+    z-index: 3;
+}
+.sn-sidebar-tab-cart .tab-cart-tip {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+}
+.sn-sidebar-tab-cart .tab-cart-num {
+    background-color: #d00;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    min-width: 17px;
+    padding: 0 2px;
+}
+
+#page-top {
+    background: rgba(0, 0, 0, 0) url("http://wxwhwj.com/skin/inho/images/turn_top-right.png") no-repeat scroll center center;
+    border: 0 none !important;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 10px;
+}

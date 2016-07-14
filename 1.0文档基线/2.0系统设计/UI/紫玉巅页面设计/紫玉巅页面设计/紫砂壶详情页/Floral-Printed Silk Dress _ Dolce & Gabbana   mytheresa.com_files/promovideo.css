@@ -1,0 +1,23 @@
+#promo-video-pv {
+    display: none;
+    width: 480px;
+}
+#promo-video-pv .logo { margin: 0 0 20px 8px; }
+
+#promo-video-pv .video { margin-bottom: 20px; }
+
+.notice p { width: 485px; }
+
+#video-wrapper {
+    position: absolute;
+    margin: 31px 0 0 460px;
+}
+
+#video-wrapper p {
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+}

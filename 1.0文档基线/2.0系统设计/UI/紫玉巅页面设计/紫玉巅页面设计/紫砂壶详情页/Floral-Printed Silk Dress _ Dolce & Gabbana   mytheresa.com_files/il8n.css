@@ -1,0 +1,30 @@
+/** overlay content css */
+#rus-overlay-content-text {
+    width: 570px;
+    height: 700px;
+    overflow: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#rus-overlay-content-text p {padding-top: 3px;}
+#rus-overlay-content-text h3 {padding-top: 10px;}
+#rus-overlay-content-text br {padding-top: 5px;}
+
+#rus-overlay-content-function {
+    width: 570px;
+    height: 50px;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 10px;
+    margin: 0 15px 0 15px;
+}
+
+#rus-overlay-content-function div.left {}
+#rus-overlay-content-function div.right {float: right;}
+#rus-overlay-content-function label {padding-left: 5px; font-weight: bold;}
+#rus-overlay-content-function div.link {padding-top: 10px;}
+#rus-overlay-content-function a {text-decoration: underline;}
+
+#rus-overlay-content-function button.button {padding: 0 10px 0 10px;}
+#rus-overlay-content-function button.button span{font-weight: bold;}
